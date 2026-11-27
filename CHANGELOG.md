@@ -13,7 +13,7 @@ et le projet respecte le [Versionnage sémantique](https://semver.org/lang/fr/).
 
 ### Modifié
 
-- README : badge CI relié au dépôt et section « Développement assisté par IA » finalisée.
+- README : lien vers le site en ligne, badge CI relié au dépôt et section « Développement assisté par IA » finalisée.
 
 ## [0.1.0] - 2026-11-27
 
