@@ -18,7 +18,7 @@ export default function Header() {
 				R · L
 			</Link>
 
-			<nav aria-label="Navigation principale">
+			<nav aria-label="Navigation principale" className={styles.nav}>
 				<ul className={styles.links}>
 					{SECTIONS.map((section) => (
 						<li key={section.id}>
