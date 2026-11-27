@@ -6,11 +6,11 @@ import { ModeProvider } from './mode/ModeContext.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter>
-      <ModeProvider>
-        <App />
-      </ModeProvider>
-    </BrowserRouter>
-  </StrictMode>,
+	<StrictMode>
+		<BrowserRouter>
+			<ModeProvider>
+				<App />
+			</ModeProvider>
+		</BrowserRouter>
+	</StrictMode>,
 )

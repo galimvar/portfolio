@@ -4,17 +4,17 @@ import styles from './Layout.module.css'
 import { useScrollToHash } from './useScrollToHash'
 
 export default function Layout() {
-  useScrollToHash()
+	useScrollToHash()
 
-  return (
-    <div className={styles.container}>
-      <a href="#contenu" className={styles.skipLink}>
-        Aller au contenu
-      </a>
-      <Header />
-      <main id="contenu" className={styles.main}>
-        <Outlet />
-      </main>
-    </div>
-  )
+	return (
+		<div className={styles.container}>
+			<a href="#contenu" className={styles.skipLink}>
+				Aller au contenu
+			</a>
+			<Header />
+			<main id="contenu" className={styles.main}>
+				<Outlet />
+			</main>
+		</div>
+	)
 }

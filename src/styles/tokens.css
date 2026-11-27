@@ -3,44 +3,44 @@
  * Any new color or font must be validated there first.
  */
 :root {
-  /* Palette */
-  --color-ink: #17141f; /* Nuit d'encre: page background */
-  --color-surface: #221d2e;
-  --color-border: #3a3350;
-  --color-parchment: #f3e9d2; /* Main text, light cards */
-  --color-text-muted: #b9afc9;
-  --color-gold: #e0b04a; /* Or des runes: main accent */
-  --color-arcane: #5cc8b5; /* Arcane: adventure mode, tech tags */
-  --color-gold-dark: #7a5a12; /* Accent on parchment */
+	/* Palette */
+	--color-ink: #17141f; /* Nuit d'encre: page background */
+	--color-surface: #221d2e;
+	--color-border: #3a3350;
+	--color-parchment: #f3e9d2; /* Main text, light cards */
+	--color-text-muted: #b9afc9;
+	--color-gold: #e0b04a; /* Or des runes: main accent */
+	--color-arcane: #5cc8b5; /* Arcane: adventure mode, tech tags */
+	--color-gold-dark: #7a5a12; /* Accent on parchment */
 
-  /* Typography */
-  --font-display: 'Cinzel', 'Times New Roman', serif; /* Capitals only: titles, labels, nav */
-  --font-body: 'Alegreya Sans', system-ui, sans-serif;
+	/* Typography */
+	--font-display: 'Cinzel', 'Times New Roman', serif; /* Capitals only: titles, labels, nav */
+	--font-body: 'Alegreya Sans', system-ui, sans-serif;
 
-  --text-sm: 0.875rem;
-  --text-base: 1.125rem;
-  --text-lg: 1.5rem;
-  --text-xl: 2.5rem;
-  --text-hero: clamp(2.75rem, 7vw, 4.5rem);
+	--text-sm: 0.875rem;
+	--text-base: 1.125rem;
+	--text-lg: 1.5rem;
+	--text-xl: 2.5rem;
+	--text-hero: clamp(2.75rem, 7vw, 4.5rem);
 
-  /* Spacing */
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 0.75rem;
-  --space-4: 1rem;
-  --space-6: 1.5rem;
-  --space-8: 2rem;
-  --space-12: 3rem;
-  --space-16: 4rem;
+	/* Spacing */
+	--space-1: 0.25rem;
+	--space-2: 0.5rem;
+	--space-3: 0.75rem;
+	--space-4: 1rem;
+	--space-6: 1.5rem;
+	--space-8: 2rem;
+	--space-12: 3rem;
+	--space-16: 4rem;
 
-  /* Shapes */
-  --radius-sm: 4px;
-  --radius-md: 6px;
-  --radius-lg: 12px;
-  --radius-pill: 999px;
+	/* Shapes */
+	--radius-sm: 4px;
+	--radius-md: 6px;
+	--radius-lg: 12px;
+	--radius-pill: 999px;
 
-  /* Layout */
-  --container-max: 80rem;
-  --gutter: clamp(1rem, 4vw, 3rem);
-  --tap-target: 44px;
+	/* Layout */
+	--container-max: 80rem;
+	--gutter: clamp(1rem, 4vw, 3rem);
+	--tap-target: 44px;
 }
