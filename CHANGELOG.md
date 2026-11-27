@@ -7,6 +7,14 @@ et le projet respecte le [Versionnage sémantique](https://semver.org/lang/fr/).
 
 ## [Unreleased]
 
+### Ajouté
+
+- `CLAUDE.md` : contexte du projet pour les sessions Claude Code.
+
+### Modifié
+
+- README : badge CI relié au dépôt et section « Développement assisté par IA » finalisée.
+
 ## [0.1.0] - 2026-11-27
 
 ### Ajouté

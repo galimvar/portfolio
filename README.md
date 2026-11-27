@@ -37,8 +37,6 @@ Les deux branches principales sont protégées : il faut passer par une pull req
 
 ## Développement assisté par IA
 
-<!-- PROPOSITION, à relire et valider par Rémy -->
-
 Ce portfolio est mon premier projet entièrement développé avec un agent IA, [Claude Code](https://claude.com/claude-code) (Anthropic), utilisé comme binôme de programmation :
 
 - **Mon rôle :** conception, choix techniques, identité visuelle, contenus, écriture de la logique métier (filtres, carrousel, visite guidée), relecture et validation de chaque pull request.
