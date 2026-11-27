@@ -1,13 +1,37 @@
+import { MODES } from './modes'
 import { getInitialMode, saveMode } from './modeStorage'
 
 describe('modeStorage', () => {
-  // TODO(human): turn these into real tests, then add the edge cases you identified
-  // while writing getInitialMode() and saveMode().
-  it.todo('returns the adventure mode on a first visit')
-  it.todo('returns the mode saved during a previous visit')
+	beforeEach(() => localStorage.clear())
+	afterEach(() => vi.restoreAllMocks())
 
-  it('never throws, whatever the environment', () => {
-    expect(() => getInitialMode()).not.toThrow()
-    expect(() => saveMode('direct')).not.toThrow()
-  })
+	it('returns the adventure mode on a first visit', () => {
+		const mode = getInitialMode()
+		expect(mode).toBe(MODES.ADVENTURE)
+	})
+
+	it('returns the mode saved during a previous visit', () => {
+		saveMode('direct')
+		const mode = getInitialMode()
+		expect(mode).toBe(MODES.DIRECT)
+	})
+
+	it('returns "aventure" if mode is not valid', () => {
+		localStorage.setItem('mode', 'banana')
+		const mode = getInitialMode()
+		expect(mode).toBe(MODES.ADVENTURE)
+	})
+
+	it('falls back to the default mode when storage is unavailable', () => {
+		vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => {
+			throw new Error('blocked')
+		})
+		const mode = getInitialMode()
+		expect(mode).toBe(MODES.ADVENTURE)
+	})
+
+	it('never throws, whatever the environment', () => {
+		expect(() => getInitialMode()).not.toThrow()
+		expect(() => saveMode('direct')).not.toThrow()
+	})
 })
