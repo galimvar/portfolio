@@ -1,10 +1,17 @@
-function App() {
+import { Route, Routes } from 'react-router-dom'
+import Layout from './components/Layout'
+import Home from './pages/Home'
+import NotFound from './pages/NotFound'
+import ProjectPage from './pages/ProjectPage'
+
+export default function App() {
   return (
-    <main>
-      <h1>Rémy Lagarre</h1>
-      <p>Développeur Web Fullstack Junior · portfolio en construction</p>
-    </main>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="projets/:slug" element={<ProjectPage />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
   )
 }
-
-export default App

@@ -1,0 +1,31 @@
+.switch {
+  display: inline-flex;
+  gap: var(--space-1);
+  padding: var(--space-1);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+}
+
+.option {
+  min-height: var(--tap-target);
+  padding: 0 var(--space-4);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-parchment);
+  font: 500 var(--text-sm) var(--font-body);
+  cursor: pointer;
+}
+
+.option[aria-pressed='true'] {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.option[aria-pressed='true'][data-value='direct'] {
+  background: var(--color-gold);
+}
+
+.option[aria-pressed='true'][data-value='aventure'] {
+  background: var(--color-arcane);
+}
