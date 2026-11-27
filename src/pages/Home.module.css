@@ -36,8 +36,8 @@
 	display: flex;
 	flex-direction: column;
 	gap: var(--space-4);
-	/* Leaves room above the title when jumping to #section */
-	scroll-margin-top: var(--space-8);
+	/* Leaves room for the sticky header when jumping to #section */
+	scroll-margin-top: var(--header-offset);
 }
 
 .sectionTitle {

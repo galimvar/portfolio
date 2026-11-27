@@ -9,6 +9,9 @@ et le projet respecte le [Versionnage sémantique](https://semver.org/lang/fr/).
 
 ### Ajouté
 
+- Lien actif dans la navigation : la section en cours de lecture est mise en évidence et annoncée aux lecteurs d'écran.
+- En-tête collant en haut de l'écran pendant le défilement.
+
 - Squelette de l'application : routes `/`, `/projets/:slug` et page introuvable, en-tête, six sections.
 - Interrupteur entre le mode aventure et l'accès direct, qui change les noms des sections.
 - Tokens de design (palette, typographie, espacements) et polices auto-hébergées (Cinzel, Alegreya Sans).
