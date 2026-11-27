@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/galimvar/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/galimvar/portfolio/actions/workflows/ci.yml)
 
-🔗 **Site en ligne :** _bientôt disponible_
+🔗 **Site en ligne :** [remy-lagarre.netlify.app](https://remy-lagarre.netlify.app)
 
 ## Stack
 
