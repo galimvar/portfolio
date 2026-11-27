@@ -1,11 +1,62 @@
-/* Global styles. Design tokens will be added in Phase 1, after visual validation. */
+@import '@fontsource/cinzel/500.css';
+@import '@fontsource/cinzel/700.css';
+@import '@fontsource/alegreya-sans/400.css';
+@import '@fontsource/alegreya-sans/500.css';
+@import '@fontsource/alegreya-sans/700.css';
+@import './styles/tokens.css';
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }
 
 body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
+	margin: 0;
+	background: var(--color-ink);
+	color: var(--color-parchment);
+	font-family: var(--font-body);
+	font-size: var(--text-base);
+	line-height: 1.55;
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--font-display);
+	line-height: 1.1;
+	margin: 0;
+}
+
+a {
+	color: var(--color-gold);
+}
+
+a:hover {
+	color: var(--color-parchment);
+}
+
+:focus-visible {
+	outline: 2px solid var(--color-arcane);
+	outline-offset: 3px;
+}
+
+/* Hidden visually, still read by screen readers */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
 }

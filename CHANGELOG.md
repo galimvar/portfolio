@@ -9,6 +9,9 @@ et le projet respecte le [Versionnage sémantique](https://semver.org/lang/fr/).
 
 ### Ajouté
 
+- Squelette de l'application : routes `/`, `/projets/:slug` et page introuvable, en-tête, six sections.
+- Interrupteur entre le mode aventure et l'accès direct, qui change les noms des sections.
+- Tokens de design (palette, typographie, espacements) et polices auto-hébergées (Cinzel, Alegreya Sans).
 - `docs/design.md` : concept, modes de visite, chapitres, palette et typographie validés.
 - `CONTRIBUTING.md` : workflow Git, conventions de commit et processus de publication.
 

@@ -1,0 +1,28 @@
+.container {
+	max-width: var(--container-max);
+	margin: 0 auto;
+	padding: 0 var(--gutter) var(--space-16);
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-16);
+	padding-top: var(--space-12);
+}
+
+/* Visible only when focused with the keyboard */
+.skipLink {
+	position: absolute;
+	left: var(--space-4);
+	top: -100px;
+	padding: var(--space-2) var(--space-4);
+	background: var(--color-gold);
+	color: var(--color-ink);
+	font-weight: 700;
+	border-radius: var(--radius-md);
+}
+
+.skipLink:focus {
+	top: var(--space-4);
+}
