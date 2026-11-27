@@ -44,6 +44,18 @@ Le chapitre 6 est une fin ouverte : le prochain chapitre s'écrit avec la person
 ## Carte et voyage
 
 - La carte apparaît **entre deux chapitres** : le sentier se dessine jusqu'au lieu suivant (environ 2 secondes), puis la scène commence.
+- Elle reste aussi **accessible en permanence**, par Galimvar (voir « Galimvar, point d'entrée de l'aventure »). Une fois ouverte, elle se comporte comme une boîte de dialogue : le focus est piégé dedans, Échap la ferme, et le focus revient au bouton qui l'a ouverte.
+
+## Galimvar, point d'entrée de l'aventure
+
+En mode aventure, un seul élément flotte à l'écran : **le portrait de Galimvar, en bas à droite**. Au clic, il ouvre un petit menu :
+
+- **Carte** : ouvre la carte de l'aventure ;
+- **Objets trouvés** : affiche les objets secrets découverts (n / 3) ;
+- **Mode** : bascule vers l'accès direct.
+
+Les bulles de la visite guidée partent de ce même portrait. Le bouton a un nom accessible (« Menu de Galimvar ») et indique s'il est ouvert (`aria-expanded`). L'interrupteur de mode reste aussi visible dans l'en-tête.
+
 - Un bouton « Passer le voyage » est toujours présent.
 - Avec `prefers-reduced-motion`, il n'y a pas d'animation.
 - Sur ordinateur, la carte est illustrée. Sur mobile, elle devient un sentier vertical.
