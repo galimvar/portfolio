@@ -35,6 +35,8 @@ npm run build      # build de production dans dist/
 
 Les deux branches principales sont protégées : il faut passer par une pull request et la CI doit être verte. Les messages de commit suivent les [Conventional Commits](https://www.conventionalcommits.org/fr/), vérifiés à chaque commit. Les versions suivent le [SemVer](https://semver.org/lang/fr/) et sont listées dans le [CHANGELOG](CHANGELOG.md).
 
+Le détail du workflow (cycle d'une fonctionnalité, publication d'une version) est décrit dans [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Développement assisté par IA
 
 Ce portfolio est mon premier projet entièrement développé avec un agent IA, [Claude Code](https://claude.com/claude-code) (Anthropic), utilisé comme binôme de programmation :

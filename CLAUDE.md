@@ -28,6 +28,7 @@ npm run build         # build de production
 - `main` : production (Netlify) · `dev` : intégration. Les deux sont protégées : PR obligatoire et CI verte.
 - Branches de travail créées depuis `dev` : `feat/…`, `fix/…`, `chore/…`, `docs/…` → PR vers `dev`. Pour une version : PR `dev` → `main`, puis tag SemVer et GitHub Release.
 - Messages au format Conventional Commits, en anglais. Mettre à jour la section `[Unreleased]` de `CHANGELOG.md` pour tout changement visible.
+- Processus complet (méthodes de fusion, publication, rétro-fusion) : voir `CONTRIBUTING.md`.
 
 ## Feuille de route
 

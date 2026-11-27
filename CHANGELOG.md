@@ -7,6 +7,10 @@ et le projet respecte le [Versionnage sémantique](https://semver.org/lang/fr/).
 
 ## [Unreleased]
 
+### Ajouté
+
+- `CONTRIBUTING.md` : workflow Git, conventions de commit et processus de publication.
+
 ## [0.1.1] - 2026-11-27
 
 ### Ajouté
