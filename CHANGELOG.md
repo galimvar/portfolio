@@ -9,6 +9,7 @@ et le projet respecte le [Versionnage sémantique](https://semver.org/lang/fr/).
 
 ### Ajouté
 
+- `docs/design.md` : concept, modes de visite, chapitres, palette et typographie validés.
 - `CONTRIBUTING.md` : workflow Git, conventions de commit et processus de publication.
 
 ## [0.1.1] - 2026-11-27
