@@ -2,7 +2,7 @@
 
 > Développeur web fullstack junior en reconversion. Ce dépôt contient le code source de mon portfolio.
 
-![CI](https://github.com/OWNER/portfolio/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/galimvar/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/galimvar/portfolio/actions/workflows/ci.yml)
 
 🔗 **Site en ligne :** _bientôt disponible_
 
