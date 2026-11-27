@@ -1,4 +1,9 @@
 .header {
+	/* Stays at the top while scrolling, so the active link is always visible */
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background: var(--color-ink);
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;

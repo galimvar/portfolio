@@ -43,4 +43,6 @@
 	--container-max: 80rem;
 	--gutter: clamp(1rem, 4vw, 3rem);
 	--tap-target: 44px;
+	/* Room kept above a section title when jumping to it, below the sticky header */
+	--header-offset: 7rem;
 }

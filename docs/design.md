@@ -46,6 +46,12 @@ Le chapitre 6 est une fin ouverte : le prochain chapitre s'écrit avec la person
 - La carte apparaît **entre deux chapitres** : le sentier se dessine jusqu'au lieu suivant (environ 2 secondes), puis la scène commence.
 - Elle reste aussi **accessible en permanence**, par Galimvar (voir « Galimvar, point d'entrée de l'aventure »). Une fois ouverte, elle se comporte comme une boîte de dialogue : le focus est piégé dedans, Échap la ferme, et le focus revient au bouton qui l'a ouverte.
 
+## En-tête et navigation
+
+- L'en-tête est **collant** sur tous les écrans : il reste en haut pendant le défilement.
+- Le lien de la section en cours de lecture est souligné en or et annoncé aux lecteurs d'écran (`aria-current="location"`).
+- Sur mobile, la navigation doit devenir **compacte** (bouton menu), pour que l'en-tête collant ne prenne pas l'espace de lecture. À faire dans une prochaine PR.
+
 ## Galimvar, point d'entrée de l'aventure
 
 En mode aventure, un seul élément flotte à l'écran : **le portrait de Galimvar, en bas à droite**. Au clic, il ouvre un petit menu :
