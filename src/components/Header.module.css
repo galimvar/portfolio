@@ -41,3 +41,11 @@
 .link:hover {
 	color: var(--color-gold);
 }
+
+/* Active section: styled from the accessibility attribute, so visuals and semantics stay in sync */
+.link[aria-current='location'] {
+	color: var(--color-gold);
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 6px;
+}
