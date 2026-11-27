@@ -19,6 +19,7 @@ npm run build         # build de production
 ## Règles de collaboration
 
 - **Rémy valide tout ce qui est visuel** (polices, couleurs, thème, maquettes) et tous les contenus. Ne jamais coder d'interface stylée sans validation préalable.
+- Décisions de design validées : `docs/design.md`. Toute nouvelle décision visuelle y est consignée.
 - Mode pédagogique : Claude écrit la configuration et le code répétitif. La logique qui porte une décision de conception est laissée en `TODO(human)` pour Rémy, puis Claude fait une revue courte.
 - **Demander confirmation avant chaque push, création de PR ou modification de réglage GitHub.** Claude ne merge jamais : Rémy merge toutes les PR.
 - Les commits écrits avec Claude se terminent par la ligne `Co-Authored-By`.
